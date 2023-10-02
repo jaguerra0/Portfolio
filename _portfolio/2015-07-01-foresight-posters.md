@@ -3,7 +3,7 @@ layout: post-wide
 hero-bg-color: "#212121"
 uid: foresight-posters
 title:  "Foresight Promo Posters"
-worktype: "Visual Communication"
+worktype: "Development"
 date:   2015-07-01 15:35:01
 categories: project design
 ---
@@ -17,8 +17,8 @@ categories: project design
 </p>
 
 <div class="showcase">
-  <img style="width:50%" src="/images/portfolio/foresight-posters/1.png" alt="">
-  <img style="width:50%" src="/images/portfolio/foresight-posters/2.png" alt="">
-  <img style="width:50%" src="/images/portfolio/foresight-posters/3.png" alt="">
+  <img style="width:50%" src="/img/foresight-posters/1.png" alt="">
+  <img style="width:50%" src="/img/foresight-posters/2.png" alt="">
+  <img style="width:50%" src="/img/foresight-posters/3.png" alt="">
 
 </div>

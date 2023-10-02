@@ -1,17 +1,14 @@
-<p align="center">
-  <img src="mockups/rsz_junior.png"/>
-</p>
-
 # Junior
 -----
 
 *Junior* is a blog/portfolio theme for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@jonobelotti_IO](https://twitter.com/jonobelotti_IO).
 
+![Junior](https://f.cloud.github.com/assets/98681/1834359/71ae4048-73db-11e3-9a3c-df38eb170537.png)
+
+See Poole in action with [the demo site](https://thundergolfer.github.io/junior-theme).
 
 ## Contents
 
-- [Features](#features)
-- [Preview](#preview)
 - [Usage](#usage)
 - [Options](#options)
   - [Rems, `font-size`, and scaling](#rems-font-size-and-scaling)
@@ -19,59 +16,6 @@
 - [Author](#author)
 - [License](#license)
 
-## Features
-
-- Blog/Technical posts, with support for code syntax highlighting, `LaTeX` markup, images, footnotes, and font color-highlighting
-- 'Portfolio' section, which emphasises large-image content
-- Markdown resumé, with support for fast and easy PDF printing
-- Connects to your Github profile via their API, in order to display open-source work
-- RSS Feed
-- Contact page, with anti-spam protection
-- Smooth CSS transition elements, and a nice B&W theme
-
-## Preview
-
-> **Note:** These images may be outdated.
-
-##### Landing Page
-
-![Junior main page](mockups/junior-front-page.png)
-
-##### Dropdown Menu
-
-![Junior menu dropdown](mockups/junior-menu.png)
-
-##### Example Blog Post
-
-![Junior blog post](mockups/junior-post.png)
-
-##### Resumé
-
-Attractive, no-fuss resumé page that includes a PDF-print link (right) with CSS configured to ensure fidelity between screen and paper page.
-
-![Junior resumé](mockups/junior-resume.png)
-
-##### Open Source Showcase
-
-Connects, using Github's API, with your public profile and pulls your projects (ordered by Stars). Coming soon, you will also be able to showcase significant PRs. *Tag colours are also matched to the project's Github language colour-coding.*
-
-![Junior open source showcase](mockups/junior-open-source.png)
-
-##### Project Portfolio Visual Showcase
-
-![Junior visual portfolio](mockups/junior-main-portfolio.png)
-
-##### Project Page
-
-![Junior project page](mockups/junior-portfolio-single.png)
-
-##### About
-
-![Junior about](mockups/junior-about.png)
-
-##### Contact
-
-![Junior contact](mockups/junior-contact.png)
 
 ## Usage
 
@@ -100,7 +44,7 @@ Folks wishing to use Jekyll's templates and styles can do so with a little bit o
 To see your Jekyll site with *Junior* applied, start a Jekyll server. In Terminal, from `/junior-theme` (or whatever your Jekyll site's root directory is named):
 
 ```bash
-> jekyll serve # You might need "bundle exec jekyll serve"
+> jekyll serve
 ```
 Open <http://localhost:4000> in your browser, and voilà.
 
@@ -117,9 +61,7 @@ No matter your production or hosting setup, be sure to verify the `baseurl` opti
 
 ## Options
 
-### Google Analytics
-
-In `_config.yml` the option `google_analytics:` is left blank if you don't want to use Google Analytics. Add `true` if you want to use it, and replace `[[[TRACKING ID HERE]]]` with your "Tracking ID". You can get one of those for your new site [here](https://www.google.com/analytics). 
+Junior includes some customizable options, typically applied via classes on the `<body>` element.
 
 
 ### Rems, `font-size`, and scaling
@@ -148,14 +90,10 @@ To easily scale your site's typography and components, simply customize the base
 
 *Junior* has two branches, but only one is used for active development.
 
-- `master` for development.  **All pull requests should be to submitted against `master`. Cheers**
-- `gh-pages` for the hosted site, which includes analytics tracking code. **Please avoid using this branch.**
+- `master` for development.  **All pull requests should be to submitted against `master`.**
+- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 CSS is handled via Jeykll's built-in Sass compiler. Source Sass files are located in `_sass/`, included into `styles.scss`, and compile to `styles.css`.
-
-#### Running 
-
-`bundle exec jekyll serve`
 
 ## Credit
 
@@ -165,3 +103,5 @@ CSS is handled via Jeykll's built-in Sass compiler. Source Sass files are locate
 ## License
 
 Open sourced under the [MIT license](LICENSE).
+
+<3

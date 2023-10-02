@@ -3,7 +3,7 @@ layout: post-wide
 hero-bg-color: "#000"
 uid: personal-logo
 title:  "Personal Logo Concept"
-worktype: "Design"
+worktype: "Development"
 date:   2013-09-02 15:35:01
 categories: project
 progress: 90
@@ -20,8 +20,8 @@ progress: 90
 </p>
 
 <div class="showcase">
-  <img style="width:50%" src="/images/portfolio/personal-logo/1.png" alt="">
-  <img style="width:50%" src="/images/portfolio/personal-logo/2.jpg" alt="">
-  <img style="width:50%" src="/images/portfolio/personal-logo/3.png" alt="">
-  <img style="width:50%" src="/images/portfolio/personal-logo/4.png" alt="">
+  <img style="width:50%" src="/img/personal-logo/1.png" alt="">
+  <img style="width:50%" src="/img/personal-logo/2.jpg" alt="">
+  <img style="width:50%" src="/img/personal-logo/3.png" alt="">
+  <img style="width:50%" src="/img/personal-logo/4.png" alt="">
 </div>
